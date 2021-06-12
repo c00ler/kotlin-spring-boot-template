@@ -1,8 +1,8 @@
 plugins {
-    id 'org.springframework.boot' version '2.4.5'
+    id 'org.springframework.boot' version '2.5.1'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-    id 'org.jetbrains.kotlin.jvm' version '1.4.32'
-    id 'org.jetbrains.kotlin.plugin.spring' version '1.4.32'
+    id 'org.jetbrains.kotlin.jvm' version '1.5.10'
+    id 'org.jetbrains.kotlin.plugin.spring' version '1.5.10'
 }
 
 group = 'com.github.avenderov'
@@ -35,7 +35,6 @@ compileKotlin {
     kotlinOptions {
         jvmTarget = '11'
         freeCompilerArgs = ['-Xjsr305=strict']
-        useIR = true
     }
 }
 
